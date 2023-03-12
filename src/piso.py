@@ -4,7 +4,7 @@ import random
 class Piso():
     """Clase piso.
     Representa la región para adoquinar.
-    Contiene a  la matriz de m x m, donde m = 2^n
+    Contiene a  la matriz de m x m, donde m = 2^n.
 
     Atributos:
         M:matriz
@@ -12,9 +12,9 @@ class Piso():
     """
 
     def __init__(self, n):
-        '''Constructor, inicializa el objeto Piso
+        '''Constructor, inicializa el objeto Piso.
         Args:
-            n:int
+            n:int, n es un número natural.
         '''
         self.numeros = self.creaLista()
         self.M = self.creaMatriz(n)
@@ -22,7 +22,7 @@ class Piso():
 
     def creaLista(self):
         '''creaLista: crea y devuelve un a lista en orden ascedente
-        de numeros del 1 al 89
+        de numeros del 1 al 89.
         Returns:
             l:[]
         '''
@@ -30,11 +30,11 @@ class Piso():
         return list(reversed(l))
 
     def creaMatriz(self, n):
-        '''creaMatriz: crea y dimesiona la matriz
+        '''creaMatriz: crea y dimensiona la matriz.
         Args:
-            n:int
+            n:int, un número natural.
         Returns:
-            M:matriz, matrix de m x m
+            M:matriz, matrix de m x m.
         '''
         M = []
         m = 2**n

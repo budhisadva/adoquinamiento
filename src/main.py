@@ -54,7 +54,7 @@ if __name__ == "__main__":
     root.geometry( "600x600" )
     root.title('Adoquinamiento')
     if int(sys.argv[1]) > 4:
-        print('No hay coles suficientes para ese tamaño')
+        print('No hay colores suficientes para ese tamaño')
         print('Por favor intentalo con un número mas pequeño')
         exit(1)
     app = App(root)

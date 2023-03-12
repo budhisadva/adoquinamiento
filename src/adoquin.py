@@ -6,7 +6,6 @@ class Adoquin():
     Es la representacion grafica para cada etiqueta en la matriz
     ya adoquinada.
     Atributos:
-        parent:Frame
         conf:{}, diccionario que contiene los atributos necesarios para
                  inicializar el objeto Canvas.
         cuadro:Canvas
@@ -18,7 +17,6 @@ class Adoquin():
             parent:Frame, es el "plano" al que anclaremos el adoquin.
             color:int, es la llave para el diccionario de colores.
         '''
-        self.parent=parent
         self.conf = {
         "bg": lista[color],
         "width": "30",
